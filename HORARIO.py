@@ -1,10 +1,10 @@
 def horario(h, m):
-    if 0 < h <= 12:
+    if 0 <= h <= 12:
         h = h + 12
         if h == 24:
             h = 0
         print(f"são {h}:{m} P.M")
-    elif 12 < h < 24:
+    elif 12 <= h < 24:
         h = h - 12
         print(f"são {h}:{m} A.M")
 
